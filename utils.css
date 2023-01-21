@@ -1,15 +1,15 @@
-.flex-all-center{
-    text-align: center;
-    /* transform: translate(0vw,1vh); */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.flex-all-center {
+  text-align: center;
+  /* transform: translate(0vw,1vh); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-#search{
-    padding: 0 16px;
-    border-radius: 2px 0 0 2px;
-    outline: 0 none;
-    font-size: 14px;
-    height: 36px;
-    width: 100%;
+#search {
+  padding: 0 16px;
+  border-radius: 2px 0 0 2px;
+  outline: 0 none;
+  font-size: 14px;
+  height: 36px;
+  width: 100%;
 }

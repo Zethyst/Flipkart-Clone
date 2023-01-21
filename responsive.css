@@ -1,0 +1,78 @@
+@media screen and (max-width:800px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 27vh;
+    font-size: 12px;
+  }
+  .overview{
+    height: 19vh;
+  }
+  .loginbox{
+    height: 1.6vh;
+    width: 7vw;
+  }
+  .logo{
+    height: 15vh;
+    padding: 15x 10px;
+    padding: 30px 25px 0px 25px;
+    cursor: pointer;
+    margin-top: 4px;
+}
+.logo img{
+    width:13vw;
+}
+.plus-block{
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: auto auto;
+    cursor: pointer;
+}
+.plus-block p{
+    font-size: 1.7vw;
+    padding-right: 2px;
+}
+.plus img{
+    padding: 0px 1.6vw 4px 0px;
+    width: auto;
+    height: 1.3vh;
+}
+.search input{
+    height: 3.1vh;
+}
+  .btn{
+    height: 5vh;
+    width: 6.2vw;
+  }
+  .product1 img{
+    height: 14vh;
+}
+.product2 img{
+    height: 14vh;
+}
+.product3 img{
+    height: 14vh;
+    width: 200px;
+}
+.product4 img{
+    height: 14vh;
+}
+
+}
+@media screen and (max-width:1100px) {
+    .product1 img{
+        height: 20vh;
+    }
+    .product2 img{
+        height: 20vh;
+    }
+    .product3 img{
+        height: 20vh;
+        width: 200px;
+    }
+    .product4 img{
+        height: 20vh;
+    }
+    
+} 
