@@ -160,16 +160,17 @@ label{
 
 }
 .box1{
-    height: 39vh;
+    height: 36vh;
     display: block;
     margin: 20px 10px;
     overflow: hidden;
     transition: transform .5s ease-in-out;
     /* transform: scale(1.03); */
     border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .box1 img{
-    box-shadow: 1px 1px 7px grey;
+    /* box-shadow: 1px 1px 7px grey; */
     border-radius: 9px;
 }
 .box1 img:hover{
@@ -185,17 +186,16 @@ label{
     transform: scale(1.03);
 }
 .box2 img{
-    box-shadow: 1px 1px 7px grey;
     border-radius: 9px;
     
 }
 .box3 img{
-    box-shadow: 1px 1px 7px grey;
     border-radius: 9px;
 }
 .box2{
-    height: 39vh;
+    height: 36vh;
     display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 20px 10px;
     border-radius: 9px;
     overflow: hidden;
@@ -203,10 +203,11 @@ label{
     border-radius: 12px;
 }
 .box3{
-    height: 39vh;
+    height: 36vh;
     display: block;
     margin: 20px 10px;
     border-radius: 9px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     overflow: hidden;
     transition: transform .5s ease-in-out;
     border-radius: 12px;
